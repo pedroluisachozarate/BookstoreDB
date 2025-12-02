@@ -62,6 +62,8 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="Bookstore_DW" />
+    <Folder Include="Bookstore_DW\Construction_DW" />
+    <Folder Include="Bookstore_DW\ETL&amp;Integration" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\author.sql" />
@@ -84,12 +86,20 @@
     <Build Include="dbo\Stored Procedures\GetCustomerChangesByRowVersion.sql" />
     <Build Include="dbo\Stored Procedures\GetBookChangesByRowVersion.sql" />
     <Build Include="dbo\Stored Procedures\GetAddressChangesByRowVersion.sql" />
-    <Build Include="Bookstore_DW\Dim_Book.sql" />
-    <Build Include="Bookstore_DW\Dim_Customer.sql" />
-    <Build Include="Bookstore_DW\Dim_Date.sql" />
-    <Build Include="Bookstore_DW\Dim_ShippingMethod.sql" />
-    <Build Include="Bookstore_DW\ETL.sql" />
-    <Build Include="Bookstore_DW\FactSales.sql" />
-    <Build Include="Bookstore_DW\Reportes.sql" />
+    <Build Include="Bookstore_DW\Construction_DW\Dim_Book.sql" />
+    <Build Include="Bookstore_DW\Construction_DW\Dim_Customer.sql" />
+    <Build Include="Bookstore_DW\Construction_DW\Dim_Date.sql" />
+    <Build Include="Bookstore_DW\Construction_DW\Dim_ShippingMethod.sql" />
+    <Build Include="Bookstore_DW\Construction_DW\FactSales.sql" />
+    <Build Include="Bookstore_DW\ETL&amp;Integration\ETL_DimBook.sql" />
+    <Build Include="Bookstore_DW\ETL&amp;Integration\ETL_DimCustomer.sql" />
+    <Build Include="Bookstore_DW\ETL&amp;Integration\ETL_DimDate.sql" />
+    <Build Include="Bookstore_DW\ETL&amp;Integration\ETL_DimShippingMethod.sql" />
+    <Build Include="Bookstore_DW\ETL&amp;Integration\ETL_FactSales.sql" />
+    <Build Include="Bookstore_DW\ETL&amp;Integration\TopClientes.sql" />
+    <Build Include="Bookstore_DW\ETL&amp;Integration\TopLibros.sql" />
+    <Build Include="Bookstore_DW\ETL&amp;Integration\VentasPorAño.sql" />
+    <Build Include="Bookstore_DW\ETL&amp;Integration\VentasPorMes.sql" />
+    <Build Include="Bookstore_DW\ETL&amp;Integration\VentasPorMetodoEnvio.sql" />
   </ItemGroup>
 </Project>
