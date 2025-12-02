@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="BookstoreDB.sqlproj">
+  <Project Path="BookstoreDB.sqlproj" Id="263f8063-d267-4d75-bec2-da2188212d80">
     <Build />
     <Deploy />
   </Project>
