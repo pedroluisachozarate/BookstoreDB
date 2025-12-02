@@ -61,6 +61,7 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="Bookstore_DW" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\author.sql" />
@@ -83,5 +84,12 @@
     <Build Include="dbo\Stored Procedures\GetCustomerChangesByRowVersion.sql" />
     <Build Include="dbo\Stored Procedures\GetBookChangesByRowVersion.sql" />
     <Build Include="dbo\Stored Procedures\GetAddressChangesByRowVersion.sql" />
+    <Build Include="Bookstore_DW\Dim_Book.sql" />
+    <Build Include="Bookstore_DW\Dim_Customer.sql" />
+    <Build Include="Bookstore_DW\Dim_Date.sql" />
+    <Build Include="Bookstore_DW\Dim_ShippingMethod.sql" />
+    <Build Include="Bookstore_DW\ETL.sql" />
+    <Build Include="Bookstore_DW\FactSales.sql" />
+    <Build Include="Bookstore_DW\Reportes.sql" />
   </ItemGroup>
 </Project>
